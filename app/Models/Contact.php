@@ -9,5 +9,5 @@ class Contact extends Model
 {
     protected $table = 'contacts';
     protected $primarykey = 'id';
-    protected $filable = ['id','nama','email','pesan'];
+    protected $fillable = ['id','nama','email','pesan'];
 }
